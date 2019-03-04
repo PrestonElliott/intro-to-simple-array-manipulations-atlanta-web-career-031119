@@ -44,4 +44,8 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, int)
-  array.delete()
+  array.delete_at(int)
+ 
+# example of delete at index  
+# arr.delete_at(2) #=> 4
+# arr #=> [2, 3, 5]
