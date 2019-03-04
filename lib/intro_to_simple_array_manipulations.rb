@@ -28,6 +28,6 @@ def using_concat(array_1, array_2)
 end
 
 # COME BACK TO THIS PROBLEM
-# def using_insert(array, element)
-#   array.insert(3, element)
-# end
+def using_insert(array, element)
+  array.insert(3, element)
+end
